@@ -2,19 +2,19 @@
   list-style: none;
 }
 
-.App {
+.HackerNews {
   font-family: sans-serif;
   text-align: center;
   margin: 1em 4em;
 }
 
-.alertMessage {
+.HackerNews .alertMessage {
   margin: 2em;
   font-weight: bold;
 }
 
 /*---------NAVBAR-------*/
-.navbar {
+.HackerNews .navbar {
   font-size: 13px;
   display: flex;
   justify-content: space-between;
@@ -22,33 +22,33 @@
   background-color: #ef6537;
 }
 
-.navbar-title {
+.HackerNews .navbar-title {
   font-weight: bold;
 }
 
-.navbar-left {
+.HackerNews .navbar-left {
   width: 80%;
 }
 
-.navbar-right {
+.HackerNews .navbar-right {
   display: flex;
   align-items: center;
   padding-right: 2%;
 }
 
-.navbar-border {
+.HackerNews .navbar-border {
   border-right: solid 1px black;
 }
 
-ul {
+.HackerNews ul {
   display: flex;
 }
 
-li {
+.HackerNews li {
   padding: 0.4em;
 }
 
-.logo {
+.HackerNews .logo {
   color: white;
   font-weight: bold;
   border: solid 1px white;
@@ -57,20 +57,20 @@ li {
 }
 /*---------LIST-------*/
 
-.list-body {
+.HackerNews .list-body {
   background-color: #f6f6ef;
   text-align: left;
   padding: 0.5em;
   font-size: 15px;
 }
 
-.list-second-row {
+.HackerNews .list-second-row {
   font-size: 13px;
   color: gray;
 }
 
 /*---------SEARCH-------*/
-.search-actions {
+.HackerNews .search-actions {
   font-size: 15px;
   display: flex;
   justify-content: center;
@@ -80,36 +80,36 @@ li {
   background-color: #f6f6ef;
 }
 
-.search-actions p {
+.HackerNews .search-actions p {
   color: dark-gray;
 }
 
-input {
+.HackerNews input {
   margin: 1em;
 }
 /*---------Pagination-------*/
 
-.Pagination {
+.HackerNews .Pagination {
   margin-top: 20px;
   background-color: #f6f6ef;
 }
 
-.Pagination button {
+.HackerNews .Pagination button {
   margin-right: 10px;
 }
 
 /*---------Footer-------*/
 
-.footer {
+.HackerNews .footer {
   background-color: #f6f6ef;
 }
 
-.github-logo {
+.HackerNews .github-logo {
   width: 30px;
   height: 30px;
 }
 
-.github-logo:hover {
+.HackerNews .github-logo:hover {
   background-color: #ef6537;
   border-radius: 100%;
 }
