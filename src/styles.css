@@ -1,0 +1,123 @@
+* {
+  list-style: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 1em 4em;
+}
+
+.alertMessage {
+  margin: 2em;
+  font-weight: bold;
+}
+
+/*---------NAVBAR-------*/
+.navbar {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-color: #ef6537;
+}
+
+.navbar-title {
+  font-weight: bold;
+}
+
+.navbar-left {
+  width: 80%;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.navbar-border {
+  border-right: solid 1px black;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 0.4em;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  border: solid 1px white;
+  margin: 2px;
+  max-height: 15px;
+}
+/*---------LIST-------*/
+
+.list-body {
+  background-color: #f6f6ef;
+  text-align: left;
+  padding: 0.5em;
+  font-size: 15px;
+}
+
+.list-second-row {
+  font-size: 13px;
+  color: gray;
+}
+
+/*---------SEARCH-------*/
+.search-actions {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  max-height: 20px;
+  align-items: center;
+  background-color: #f6f6ef;
+}
+
+.search-actions p {
+  color: dark-gray;
+}
+
+input {
+  margin: 1em;
+}
+/*---------Pagination-------*/
+
+.Pagination {
+  margin-top: 20px;
+  background-color: #f6f6ef;
+}
+
+.Pagination button {
+  margin-right: 10px;
+}
+
+/*---------Footer-------*/
+
+.footer {
+  background-color: #f6f6ef;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.github-logo:hover {
+  background-color: #ef6537;
+  border-radius: 100%;
+}
+
+/*---------Responsive-------*/
+
+@media only screen and (max-width: 750px) {
+  .hidden {
+    display: none;
+  }
+}
